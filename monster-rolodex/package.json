@@ -12,10 +12,8 @@
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
-    "eslint": "*",
-    "prettier": "*",
     "babel-eslint": "*",
-    "eslint-config-prettier": "*",
+    "eslint": "*",
     "eslint-plugin-react": "*"
   },
   "scripts": {
