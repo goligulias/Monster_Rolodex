@@ -1,5 +1,32 @@
 {
-    "cSpell.ignoreWords": [
-        "goli"
-    ]
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tokenColorCustomizations": {
+    "[Tokyo Night Storm]": {
+      // or "[Tokyo Night Storm]"
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "meta.var.expr storage.type",
+            "keyword.control.flow",
+            "meta.directive.vue punctuation.separator.key-value.html",
+            "meta.directive.vue entity.other.attribute-name.html",
+            "tag.decorator.js entity.name.tag.js",
+            "tag.decorator.js punctuation.definition.tag.js",
+            "storage.modifier"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[Tokyo Night Storm]": {
+      // or "[Tokyo Night Storm]"
+      "editorCodeLens.foreground": "#7982a9" // Preferred hex color
+    }
+  }
 }
